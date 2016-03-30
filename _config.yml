@@ -1,0 +1,18 @@
+title: How Dev Teams Get Shit Done
+email: minneapolis@girldevelopit.com
+description: |
+  Development teams use various processes to get their work done. The main few include waterfall, incremental, agile, scrumm, lean, and kanban.
+
+baseurl: "/how-dev-teams-get-stuff-done" # the subpath of your site, e.g. /blog
+url: "http://gdiminnapolis.github.io/how-dev-teams-get-stuff-done/" # the base hostname & protocol for your site
+twitter_username: gdimpls
+github_username:  gdiminneapolis
+author:
+  name: Tamara Temple
+  email: tamouse@gmail.com
+  github: tamouse
+markdown: kramdown
+collections:
+  - slides
+style: gdidefault
+syntax_style: zenburn
