@@ -5,14 +5,14 @@ A panel presentation and Q&amp;A on development methodologies teams use: Waterfa
 
 ## Methodologies to discuss
 
-* Waterfall -- ?
+* Waterfall -- Susan Metoxen
 * Incremental Development -- ?
 * Agile -- ?
 * Kanban -- ?
 * Lean -- ?
 * Scrum -- ?
 
-Potential panelists: Amy, Sam, (who else?)
+Potential panelists: Amy, Sam, Susan, (who else?)
 
 * Amy mentioned some colleagues who might be interested
 * Tessa mentioned Jenna Pederson, but I haven't heard back from her
@@ -27,11 +27,11 @@ Potential panelists: Amy, Sam, (who else?)
 ## Format for each panelist
 
 * Introduce self briefly
-  * name
-  * professional history
+    * name
+    * professional history
 * Introduce methodology:
 * History
-  * Where did it come from?
+    * Where did it come from?
 * What's It Useful For?
 * What's It Not Useful For?
 * Where can you learn more about it?
