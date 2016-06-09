@@ -7,10 +7,9 @@ A panel presentation and Q&amp;A on development methodologies teams use: Waterfa
 
 * Waterfall -- Susan Metoxen
 * Incremental Development -- ?
-* Agile -- ?
-* Kanban -- ?
+* Agile/Scrum -- Ashley Holtgrave
+* Kanban -- Sam Oyen
 * Lean -- ?
-* Scrum -- ?
 
 Potential panelists: Amy, Sam, Susan, (who else?)
 
