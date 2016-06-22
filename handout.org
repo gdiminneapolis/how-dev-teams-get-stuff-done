@@ -1,0 +1,340 @@
+* Intro
+
+  - How Dev Teams Get Shit Done
+  - Panel Discussion
+  - Girl Develop It Minneapolis
+  - June 22, 2016, 6:30 PM to 8:30 PM
+  - Rocket 55
+
+** Panel
+
+   - Susan Metoxen, Waterfall
+   - Tamara Temple, Incremental
+   - Ashlee Holtgrave, Agile / Scrum
+   - Sam Oyen, Kanban
+
+* Waterfall
+
+   The waterfall model is the traditional model for managing IT
+   releases. It is associated with large mainframe computer systems.
+
+** Phases
+
+   - Requirements:  Product requirements are documented
+   - Analysis: What is the best way to meet the need?
+   - Designed: Programming
+   - Testing: Starts in IT then moves towards the business users
+   - Implementation: Software is released
+   - Verification: Software used, bugs reported
+   - Maintenance: Ongoing use and maintenance
+
+** Origination
+
+   The waterfall model originates in the manufacturing and was
+   adopted for software. Each “product” or release tends to be very
+   large and the timelines very long, over months and years. Bug
+   fixes are often held for software releases. Sign offs are required
+   for each stage.
+
+** Where is it Useful?
+
+   It had its place in early IT and the creation of large mainframe
+   computers.
+
+   It involves a lot of people from all levels of the organization or
+   organizations.
+
+   The documentation that comes out of it can be very robust, albeit
+   impossible to maintain.
+
+   It is still used extensively in the maintenance of large mainframe
+   computers.
+
+   It forces high level leadership to be aware of the systems key to
+   their business because of the high level sign offs required.
+
+** What's It Not Useful For?
+
+   It is highly inflexible, so there can be many workarounds and
+   separate databases outside of the mainframe. Supplemental tables
+   are created in Access and SQL for reporting that cannot come from
+   the mainframe.
+
+   Wrong assumptions can be made, because programmers do not
+   understand the key elements of the business and misconstrue the
+   intent of the requirement. It is often too late to make changes
+   when user testing starts.
+
+   Timelines for enhancements are very slow, and it is difficult to
+   make comprehensive changes.
+
+** Where can you learn more about it?
+
+   If you work in a large company, it is highly likely you will be expected to work in this model.  Each company will have have their own version of how they use it.
+
+   - https://en.wikipedia.org/wiki/Waterfall_model
+   - http://www.seguetech.com/blog/2013/07/05/waterfall-vs-agile-right-development-methodology
+
+* Incremental
+
+  Incremental development, also known as Incremental Delivery, is
+  the step between the Waterfall model and Agile development.
+
+  Incremental keeps the same set of phases seen in the waterfall
+  lifecycle, but shortens the amount of time spent on each phase
+  tremendously, and iterates over the steps continuously until
+  delivery.
+
+  This was somewhat revolutionary in going from years-long delivery to
+  mere months-long delivery.
+
+  Incremental development lacked the planning and tracking elements of
+  Agile, and various oher aspects that came along later with Extreme
+  Programming, but it was a huge improvment.
+
+** History
+
+   According to noted industry consultant Jerry Weinberg, Incremental
+   development was being used as early as 1957. It was, however, not
+   widely used or discussed.
+
+   Larger scale interest began in the 80s and 90s when folks like
+   Weinberg, Kent Beck, and several others began pushing it as a
+   solution to the rampant problems with delivering large government
+   and industry software projects.
+
+** Where is it Useful?
+
+   Perhaps if an organization wants to go from Waterfall to something
+   like Agile, Incremental delivery might be seen as an intermediate
+   step before jumping in, but that has also led to as much failure as
+   waterfall.
+
+** Where is it Useful?
+
+   Today, Incremental development by itself is not really something
+   that is practiced much. It's part-and-parcel of the other
+   short-term methods that we'll discuss in a minute.
+
+
+** Where Can You Learn More About it?
+
+   A 2003 paper by Craig Larman and Victor Basili: "Iterative and
+   Incremental Development: A Brief History":
+
+   http://www.craiglarman.com/wiki/downloads/misc/history-of-iterative-larman-and-basili-ieee-computer.pdf
+
+
+* Agile / Scrum
+
+** Panelist Introduction
+
+  Ashlee Holtgrave, Software Development Project Manager and Scrum
+  Master
+
+  B.A. Business Management, St. Mary’s University; Certified Scrum
+  Master
+
+  Been with WAND for 6 years in varying Project Management capacities
+  and experienced in both Waterfall and Scrum methodologies
+
+** History
+
+   Jeff Sutherland and Ken Schwaber conceived the Scrum process in the
+   early 90’s and it was first tried and refined at Individual, Inc.,
+   Fidelity Investments, and IDX (now GE Medical).
+
+   In February 2001, Jeff and Ken were amongst the 17 software
+   development leaders creating the Manifesto for Agile Software
+   Development.
+
+   Following the Agile Manifesto, the Agile Alliance was founded with
+   Ken Schwaber being its first chairman and he also co-authored the
+   first book on Scrum with Mike Beedle, Agile Software Development
+   with Scrum.
+
+   In 2002, Ken Schwaber founded the Scrum Alliance with Mike Cohn and
+   Esther Derby. In the years to follow the highly successful Certified
+   ScrumMaster programs and its derivatives were created and launched.
+
+   In 2006, Jeff Sutherland created his own company, Scrum.inc, while
+   continuing to offer and teach the Certified Scrum courses.
+
+   Ken left the Scrum Alliance in the fall of 2009, and founded
+   Scrum.org to further improve the quality and effectiveness of Scrum,
+   mainly through the Professional Scrum series.
+
+   With the first publication of the Scrum Guide in 2010, and its
+   incremental updates in 2011 and 2013, Jeff and Ken established the
+   globally recognized body of knowledge of Scrum.
+
+   Since its inception, Scrum has been adopted by a vast amount of
+   software development companies around the world and is today
+   recognized as the most applied framework for agile software
+   development with more than 1000 books have been published on Scrum.
+
+   The method has also been successfully applied in other domains such as
+   manufacturing, marketing, operations and education.
+
+   Cited: http://www.scrumguides.org/
+
+   If a company says they are Agile or an Agile shop, that means they
+   use the Scrum process to support the values of Agile and practices.
+
+** What is it useful for?
+
+   The definition of Scrum from Scrumguides.org states it is “A
+   framework within which people can address complex adaptive
+   problems, while productively and creatively delivering products of
+   the highest possible value.”
+
+   Scrum is:
+   - Lightweight
+   - Simple to understand
+   - Transparent
+
+   Scrum is an Agile framework consisting of Scrum Teams and their
+   associated roles, events, artifacts, and rules. Each component
+   within the framework serves a specific purpose and is essential to
+   Scrum’s success and usage.
+
+   The rules of Scrum bind together the events, roles, and artifacts,
+   governing the relationships and interaction between them.
+
+   Scrum values:
+   - Commitment
+   - Openness
+   - Focus
+   - Respect
+   - Courage
+
+** What is it not useful for?
+
+   Scrum is simple on the shell, it is difficult to master.
+
+   Scrum is not magic or a silver bullet.
+
+   Works best with smaller teams, 5-10 people, who can be completely committed to achieving the Sprint Goal. It doesn’t work well larger groups or with individuals not entirely devoted to the project.
+
+   You must have both management and team buy-in for Scrum to work.
+
+   Scrum also doesn't work well if you are unable to define your goals, or break them down into small, quantifiable chunks.
+
+** Where can you learn more about it?
+
+   - Scrumalliance.org
+   - Scrumguides.org
+   - Atlassian.com
+   - Scrum.org
+   - Mountaingoatsoftware.com
+
+* Kanban
+
+** Kanban - The Basics
+
+Kanban is an agile process tool that enables project teams to work better. Specifically, Kanban gives teams planning flexibility, faster output, clear focus, and transparency throughout the development cycle.
+There are basic rules to Kanban (below) that must be followed if you are to announce that you’re “doing” Kanban. However, these rules are intentionally few, as Kanban is an additive methodology. I.e. the “rules” for your team should grow as your team progresses down their Kanban journey. The team decides together what rules they would like to add to their version of Kanban to best aid the team in meeting its business goals and ensure “their Kanban” fits with the team’s unique working style.
+
+** The Rules:
+
+   - Visualize your work
+   - Limit work in progress
+   - Maximize throughput (measure lead time/cycle time)
+
+   Inherited from Agile: Your team must agree to pursue incremental, evolutionary change.
+
+** Background of Kanban
+
+   Kanban started out in the 1940’s by Toyota, as a way to make their
+   factory floor more productive. However, the idea has been modified
+   to apply to software development since. Scrum came first, but Corey
+   Ladas came into the picture in 2009 with his book Scrumban and
+   suggested that Kanban was a superior alternative to Scrum for
+   software development. David Anderson completed formulating the
+   Kanban Method for application to IT and software development in his
+   2010 book Kanban. Since then many teams that started using Scrum
+   have switched to Kanban, and even teams that have never done Scrum
+   have implemented Kanban.
+
+   Scrum, Kanban, etc are process tools. And as always, you should
+   always ensure you’re choosing the correct tool for the job. No
+   process tool is inherently right or wrong. It depends on your
+   project work and team culture. Read more below to discover what
+   about Kanban makes it great, and not so great for various project
+   teams.
+
+** What's It Useful For?
+
+   Reducing Bottlenecks - Projects where (sometimes hidden/not
+   transparent to the entire team) bottlenecks slow down work
+   completion. Visibility of work using the Kanban board forces
+   bottlenecks to be acknowledged and addressed.
+
+   Flexibility – Project team is only committing to small amounts of
+   work at a time, so if the business priority changes or other
+   external variables shift, future work is able to be reprioritized,
+   or changed completely.
+
+   Forcing Timely 100% Completion of Every Task - Teams many times
+   feel that it is hard for them to bring one task to completion, due
+   to the demands and distraction of various other tasks. The limit of
+   the WIP items using the Kanban methodology ensures that another
+   task does not get started if the project team’s plate is already
+   full. (WIP limits vary from team to team, but by measuring lead
+   time, the team can determine which limit maximizes work efficiency)
+
+   Ensuring High Priority Work Completed First – Teams with a large
+   backlog of work often feel that feel that more clarity is needed in
+   what is the highest priority. With the visual Kanban board that the
+   entire project team and stakeholders can see, priority setting
+   should be visible to all interested parties, enabling individuals
+   to bring up and fix incorrect priority ordering.
+
+   Encouraging “Swarming” – If the WIP limit has been reached, but
+   there is someone without work, this forces them to team up with
+   another team member to get an existing WIP item to completion (this
+   is called swarming). Swarming is viewed as a positive team working
+   style that can help communication, knowledge sharing, and
+   completion of difficult tasks.
+
+** What's It Not Useful For?
+
+   Non Self-Motivating Teams – Kanban does not require hard deadlines
+   for work completion. Team members must self-motivate to move work
+   across the board.
+
+   Change Promotion/Finalization Limits - Projects where changes are
+   difficult to deploy to production/be finalized on a regular basis
+   will have a hard time using Kanban. This is because Kanban requires
+   you to have the ability to move small items of work into production
+   in order to pull in new items into the work in progress column. If
+   your project doesn’t have this capability (i.e. a work item is done
+   in all but pushing to production, but pushing to production cannot
+   be done for a certain amount of time), Kanban will prevent you from
+   picking a new work item… since the item that is not moved to
+   Production/100% complete cannot move out of the WIP column. (that
+   being said, there are probably variations that can be made to
+   Kanban so that it work with teams like these. It just wouldn’t be
+   100% by the books)
+
+** Where can you learn more about it?
+
+   Though Kanban is a newer methodology, this methodology is gaining
+   popularity at companies large and small. In my experience, many
+   transition to Kanban after using Scrum, and land somewhere in the
+   middle regarding what works best for their team. Although, you
+   definitely do not need to be using Scrum currently to look into
+   using Kanban for your project team!
+
+   https://www.crisp.se/gratis-material-och-guider/kanban - Good
+   starting point to learn more about Kanban. This page also has links
+   to other useful Kanban resources.
+
+   Kanban & Scrum, making the most of both (book by Henrik & Mattias)
+   – Specifically calls out similarities and differences between the
+   two, and ways to transition from Scrum to Kanban.
+
+
+   http://www.ted.com/talks/bruce_feiler_agile_programming_for_your_family?language=en#t-24806
+   – Interesting perspective on Agile and how it can help the stresses
+   of the modern day family.

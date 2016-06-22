@@ -6,29 +6,27 @@ A panel presentation and Q&amp;A on development methodologies teams use: Waterfa
 ## Methodologies to discuss
 
 * Waterfall -- Susan Metoxen
-* Incremental Development -- ?
+* Incremental Development -- Tamara Temple
 * Agile/Scrum -- Ashley Holtgrave
 * Kanban -- Sam Oyen
-* Lean -- ?
 
-Potential panelists: Amy, Sam, Susan, (who else?)
+## Format
 
-* Amy mentioned some colleagues who might be interested
-* Tessa mentioned Jenna Pederson, but I haven't heard back from her
+Hour 1: Panelists get 15 minutes each
 
-## Introduction
+Hour 2: General Q&A discussion between audience and panelists
 
-* What is this about?
-* Why does this matter?
-* Format for the panel
-* Introduce panelists and topics
+## Rules
+
+* no slides
+* let panelists finish, quesitons will be after all have finished
 
 ## Format for each panelist
 
 * Introduce self briefly
     * name
     * professional history
-* Introduce methodology:
+* Introduce methodology, what is it
 * History
     * Where did it come from?
 * What's It Useful For?
