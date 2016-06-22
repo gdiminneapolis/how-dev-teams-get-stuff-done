@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2016-06-21 Tue 21:24 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Tamara Temple" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline2">1. Intro</a>
+<ul>
+<li><a href="#orgheadline1">1.1. Panel</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline8">2. Waterfall</a>
+<ul>
+<li><a href="#orgheadline3">2.1. Phases</a></li>
+<li><a href="#orgheadline4">2.2. Origination</a></li>
+<li><a href="#orgheadline5">2.3. Where is it Useful?</a></li>
+<li><a href="#orgheadline6">2.4. What's It Not Useful For?</a></li>
+<li><a href="#orgheadline7">2.5. Where can you learn more about it?</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline13">3. Incremental</a>
+<ul>
+<li><a href="#orgheadline9">3.1. History</a></li>
+<li><a href="#orgheadline10">3.2. Where is it Useful?</a></li>
+<li><a href="#orgheadline11">3.3. Where is it Useful?</a></li>
+<li><a href="#orgheadline12">3.4. Where Can You Learn More About it?</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline19">4. Agile / Scrum</a>
+<ul>
+<li><a href="#orgheadline14">4.1. Panelist Introduction</a></li>
+<li><a href="#orgheadline15">4.2. History</a></li>
+<li><a href="#orgheadline16">4.3. What is it useful for?</a></li>
+<li><a href="#orgheadline17">4.4. What is it not useful for?</a></li>
+<li><a href="#orgheadline18">4.5. Where can you learn more about it?</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline26">5. Kanban</a>
+<ul>
+<li><a href="#orgheadline20">5.1. Kanban - The Basics</a></li>
+<li><a href="#orgheadline21">5.2. The Rules:</a></li>
+<li><a href="#orgheadline22">5.3. Background of Kanban</a></li>
+<li><a href="#orgheadline23">5.4. What's It Useful For?</a></li>
+<li><a href="#orgheadline24">5.5. What's It Not Useful For?</a></li>
+<li><a href="#orgheadline25">5.6. Where can you learn more about it?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline2" class="outline-2">
+<h2 id="orgheadline2"><span class="section-number-2">1</span> Intro</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>How Dev Teams Get Shit Done</li>
+<li>Panel Discussion</li>
+<li>Girl Develop It Minneapolis</li>
+<li>June 22, 2016, 6:30 PM to 8:30 PM</li>
+<li>Rocket 55</li>
+</ul>
+</div>
+
+<div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="orgheadline1"><span class="section-number-3">1.1</span> Panel</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Susan Metoxen, Waterfall</li>
+<li>Tamara Temple, Incremental</li>
+<li>Ashlee Holtgrave, Agile / Scrum</li>
+<li>Sam Oyen, Kanban</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline8" class="outline-2">
+<h2 id="orgheadline8"><span class="section-number-2">2</span> Waterfall</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+The waterfall model is the traditional model for managing IT
+releases. It is associated with large mainframe computer systems.
+</p>
+</div>
+
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3"><span class="section-number-3">2.1</span> Phases</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Requirements:  Product requirements are documented</li>
+<li>Analysis: What is the best way to meet the need?</li>
+<li>Designed: Programming</li>
+<li>Testing: Starts in IT then moves towards the business users</li>
+<li>Implementation: Software is released</li>
+<li>Verification: Software used, bugs reported</li>
+<li>Maintenance: Ongoing use and maintenance</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4"><span class="section-number-3">2.2</span> Origination</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+The waterfall model originates in the manufacturing and was
+adopted for software. Each “product” or release tends to be very
+large and the timelines very long, over months and years. Bug
+fixes are often held for software releases. Sign offs are required
+for each stage.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline5" class="outline-3">
+<h3 id="orgheadline5"><span class="section-number-3">2.3</span> Where is it Useful?</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+It had its place in early IT and the creation of large mainframe
+computers.
+</p>
+
+<p>
+It involves a lot of people from all levels of the organization or
+organizations.
+</p>
+
+<p>
+The documentation that comes out of it can be very robust, albeit
+impossible to maintain.
+</p>
+
+<p>
+It is still used extensively in the maintenance of large mainframe
+computers.
+</p>
+
+<p>
+It forces high level leadership to be aware of the systems key to
+their business because of the high level sign offs required.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline6" class="outline-3">
+<h3 id="orgheadline6"><span class="section-number-3">2.4</span> What's It Not Useful For?</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+It is highly inflexible, so there can be many workarounds and
+separate databases outside of the mainframe. Supplemental tables
+are created in Access and SQL for reporting that cannot come from
+the mainframe.
+</p>
+
+<p>
+Wrong assumptions can be made, because programmers do not
+understand the key elements of the business and misconstrue the
+intent of the requirement. It is often too late to make changes
+when user testing starts.
+</p>
+
+<p>
+Timelines for enhancements are very slow, and it is difficult to
+make comprehensive changes.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline7" class="outline-3">
+<h3 id="orgheadline7"><span class="section-number-3">2.5</span> Where can you learn more about it?</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+If you work in a large company, it is highly likely you will be expected to work in this model.  Each company will have have their own version of how they use it.
+</p>
+
+<ul class="org-ul">
+<li><a href="https://en.wikipedia.org/wiki/Waterfall_model">https://en.wikipedia.org/wiki/Waterfall_model</a></li>
+<li><a href="http://www.seguetech.com/blog/2013/07/05/waterfall-vs-agile-right-development-methodology">http://www.seguetech.com/blog/2013/07/05/waterfall-vs-agile-right-development-methodology</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline13" class="outline-2">
+<h2 id="orgheadline13"><span class="section-number-2">3</span> Incremental</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Incremental development, also known as Incremental Delivery, is
+the step between the Waterfall model and Agile development.
+</p>
+
+<p>
+Incremental keeps the same set of phases seen in the waterfall
+lifecycle, but shortens the amount of time spent on each phase
+tremendously, and iterates over the steps continuously until
+delivery.
+</p>
+
+<p>
+This was somewhat revolutionary in going from years-long delivery to
+mere months-long delivery.
+</p>
+
+<p>
+Incremental development lacked the planning and tracking elements of
+Agile, and various oher aspects that came along later with Extreme
+Programming, but it was a huge improvment.
+</p>
+</div>
+
+<div id="outline-container-orgheadline9" class="outline-3">
+<h3 id="orgheadline9"><span class="section-number-3">3.1</span> History</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+According to noted industry consultant Jerry Weinberg, Incremental
+development was being used as early as 1957. It was, however, not
+widely used or discussed.
+</p>
+
+<p>
+Larger scale interest began in the 80s and 90s when folks like
+Weinberg, Kent Beck, and several others began pushing it as a
+solution to the rampant problems with delivering large government
+and industry software projects.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline10" class="outline-3">
+<h3 id="orgheadline10"><span class="section-number-3">3.2</span> Where is it Useful?</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Perhaps if an organization wants to go from Waterfall to something
+like Agile, Incremental delivery might be seen as an intermediate
+step before jumping in, but that has also led to as much failure as
+waterfall.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline11" class="outline-3">
+<h3 id="orgheadline11"><span class="section-number-3">3.3</span> Where is it Useful?</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Today, Incremental development by itself is not really something
+that is practiced much. It's part-and-parcel of the other
+short-term methods that we'll discuss in a minute.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline12" class="outline-3">
+<h3 id="orgheadline12"><span class="section-number-3">3.4</span> Where Can You Learn More About it?</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+A 2003 paper by Craig Larman and Victor Basili: "Iterative and
+Incremental Development: A Brief History":
+</p>
+
+<p>
+<a href="http://www.craiglarman.com/wiki/downloads/misc/history-of-iterative-larman-and-basili-ieee-computer.pdf">http://www.craiglarman.com/wiki/downloads/misc/history-of-iterative-larman-and-basili-ieee-computer.pdf</a>
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline19" class="outline-2">
+<h2 id="orgheadline19"><span class="section-number-2">4</span> Agile / Scrum</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><span class="section-number-3">4.1</span> Panelist Introduction</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Ashlee Holtgrave, Software Development Project Manager and Scrum
+Master
+</p>
+
+<p>
+B.A. Business Management, St. Mary’s University; Certified Scrum
+Master
+</p>
+
+<p>
+Been with WAND for 6 years in varying Project Management capacities
+and experienced in both Waterfall and Scrum methodologies
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline15" class="outline-3">
+<h3 id="orgheadline15"><span class="section-number-3">4.2</span> History</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Jeff Sutherland and Ken Schwaber conceived the Scrum process in the
+early 90’s and it was first tried and refined at Individual, Inc.,
+Fidelity Investments, and IDX (now GE Medical).
+</p>
+
+<p>
+In February 2001, Jeff and Ken were amongst the 17 software
+development leaders creating the Manifesto for Agile Software
+Development.
+</p>
+
+<p>
+Following the Agile Manifesto, the Agile Alliance was founded with
+Ken Schwaber being its first chairman and he also co-authored the
+first book on Scrum with Mike Beedle, Agile Software Development
+with Scrum.
+</p>
+
+<p>
+In 2002, Ken Schwaber founded the Scrum Alliance with Mike Cohn and
+Esther Derby. In the years to follow the highly successful Certified
+ScrumMaster programs and its derivatives were created and launched.
+</p>
+
+<p>
+In 2006, Jeff Sutherland created his own company, Scrum.inc, while
+continuing to offer and teach the Certified Scrum courses.
+</p>
+
+<p>
+Ken left the Scrum Alliance in the fall of 2009, and founded
+Scrum.org to further improve the quality and effectiveness of Scrum,
+mainly through the Professional Scrum series.
+</p>
+
+<p>
+With the first publication of the Scrum Guide in 2010, and its
+incremental updates in 2011 and 2013, Jeff and Ken established the
+globally recognized body of knowledge of Scrum.
+</p>
+
+<p>
+Since its inception, Scrum has been adopted by a vast amount of
+software development companies around the world and is today
+recognized as the most applied framework for agile software
+development with more than 1000 books have been published on Scrum.
+</p>
+
+<p>
+The method has also been successfully applied in other domains such as
+manufacturing, marketing, operations and education.
+</p>
+
+<p>
+Cited: <a href="http://www.scrumguides.org/">http://www.scrumguides.org/</a>
+</p>
+
+<p>
+If a company says they are Agile or an Agile shop, that means they
+use the Scrum process to support the values of Agile and practices.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline16" class="outline-3">
+<h3 id="orgheadline16"><span class="section-number-3">4.3</span> What is it useful for?</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+The definition of Scrum from Scrumguides.org states it is “A
+framework within which people can address complex adaptive
+problems, while productively and creatively delivering products of
+the highest possible value.”
+</p>
+
+<p>
+Scrum is:
+</p>
+<ul class="org-ul">
+<li>Lightweight</li>
+<li>Simple to understand</li>
+<li>Transparent</li>
+</ul>
+
+<p>
+Scrum is an Agile framework consisting of Scrum Teams and their
+associated roles, events, artifacts, and rules. Each component
+within the framework serves a specific purpose and is essential to
+Scrum’s success and usage.
+</p>
+
+<p>
+The rules of Scrum bind together the events, roles, and artifacts,
+governing the relationships and interaction between them.
+</p>
+
+<p>
+Scrum values:
+</p>
+<ul class="org-ul">
+<li>Commitment</li>
+<li>Openness</li>
+<li>Focus</li>
+<li>Respect</li>
+<li>Courage</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline17" class="outline-3">
+<h3 id="orgheadline17"><span class="section-number-3">4.4</span> What is it not useful for?</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Scrum is simple on the shell, it is difficult to master.
+</p>
+
+<p>
+Scrum is not magic or a silver bullet.
+</p>
+
+<p>
+Works best with smaller teams, 5-10 people, who can be completely committed to achieving the Sprint Goal. It doesn’t work well larger groups or with individuals not entirely devoted to the project.
+</p>
+
+<p>
+You must have both management and team buy-in for Scrum to work.
+</p>
+
+<p>
+Scrum also doesn't work well if you are unable to define your goals, or break them down into small, quantifiable chunks.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline18" class="outline-3">
+<h3 id="orgheadline18"><span class="section-number-3">4.5</span> Where can you learn more about it?</h3>
+<div class="outline-text-3" id="text-4-5">
+<ul class="org-ul">
+<li>Scrumalliance.org</li>
+<li>Scrumguides.org</li>
+<li>Atlassian.com</li>
+<li>Scrum.org</li>
+<li>Mountaingoatsoftware.com</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline26" class="outline-2">
+<h2 id="orgheadline26"><span class="section-number-2">5</span> Kanban</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orgheadline20" class="outline-3">
+<h3 id="orgheadline20"><span class="section-number-3">5.1</span> Kanban - The Basics</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+Kanban is an agile process tool that enables project teams to work better. Specifically, Kanban gives teams planning flexibility, faster output, clear focus, and transparency throughout the development cycle.
+There are basic rules to Kanban (below) that must be followed if you are to announce that you’re “doing” Kanban. However, these rules are intentionally few, as Kanban is an additive methodology. I.e. the “rules” for your team should grow as your team progresses down their Kanban journey. The team decides together what rules they would like to add to their version of Kanban to best aid the team in meeting its business goals and ensure “their Kanban” fits with the team’s unique working style.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline21" class="outline-3">
+<h3 id="orgheadline21"><span class="section-number-3">5.2</span> The Rules:</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>Visualize your work</li>
+<li>Limit work in progress</li>
+<li>Maximize throughput (measure lead time/cycle time)</li>
+</ul>
+
+<p>
+Inherited from Agile: Your team must agree to pursue incremental, evolutionary change.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline22" class="outline-3">
+<h3 id="orgheadline22"><span class="section-number-3">5.3</span> Background of Kanban</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+Kanban started out in the 1940’s by Toyota, as a way to make their
+factory floor more productive. However, the idea has been modified
+to apply to software development since. Scrum came first, but Corey
+Ladas came into the picture in 2009 with his book Scrumban and
+suggested that Kanban was a superior alternative to Scrum for
+software development. David Anderson completed formulating the
+Kanban Method for application to IT and software development in his
+2010 book Kanban. Since then many teams that started using Scrum
+have switched to Kanban, and even teams that have never done Scrum
+have implemented Kanban.
+</p>
+
+<p>
+Scrum, Kanban, etc are process tools. And as always, you should
+always ensure you’re choosing the correct tool for the job. No
+process tool is inherently right or wrong. It depends on your
+project work and team culture. Read more below to discover what
+about Kanban makes it great, and not so great for various project
+teams.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline23" class="outline-3">
+<h3 id="orgheadline23"><span class="section-number-3">5.4</span> What's It Useful For?</h3>
+<div class="outline-text-3" id="text-5-4">
+<p>
+Reducing Bottlenecks - Projects where (sometimes hidden/not
+transparent to the entire team) bottlenecks slow down work
+completion. Visibility of work using the Kanban board forces
+bottlenecks to be acknowledged and addressed.
+</p>
+
+<p>
+Flexibility – Project team is only committing to small amounts of
+work at a time, so if the business priority changes or other
+external variables shift, future work is able to be reprioritized,
+or changed completely.
+</p>
+
+<p>
+Forcing Timely 100% Completion of Every Task - Teams many times
+feel that it is hard for them to bring one task to completion, due
+to the demands and distraction of various other tasks. The limit of
+the WIP items using the Kanban methodology ensures that another
+task does not get started if the project team’s plate is already
+full. (WIP limits vary from team to team, but by measuring lead
+time, the team can determine which limit maximizes work efficiency)
+</p>
+
+<p>
+Ensuring High Priority Work Completed First – Teams with a large
+backlog of work often feel that feel that more clarity is needed in
+what is the highest priority. With the visual Kanban board that the
+entire project team and stakeholders can see, priority setting
+should be visible to all interested parties, enabling individuals
+to bring up and fix incorrect priority ordering.
+</p>
+
+<p>
+Encouraging “Swarming” – If the WIP limit has been reached, but
+there is someone without work, this forces them to team up with
+another team member to get an existing WIP item to completion (this
+is called swarming). Swarming is viewed as a positive team working
+style that can help communication, knowledge sharing, and
+completion of difficult tasks.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline24" class="outline-3">
+<h3 id="orgheadline24"><span class="section-number-3">5.5</span> What's It Not Useful For?</h3>
+<div class="outline-text-3" id="text-5-5">
+<p>
+Non Self-Motivating Teams – Kanban does not require hard deadlines
+for work completion. Team members must self-motivate to move work
+across the board.
+</p>
+
+<p>
+Change Promotion/Finalization Limits - Projects where changes are
+difficult to deploy to production/be finalized on a regular basis
+will have a hard time using Kanban. This is because Kanban requires
+you to have the ability to move small items of work into production
+in order to pull in new items into the work in progress column. If
+your project doesn’t have this capability (i.e. a work item is done
+in all but pushing to production, but pushing to production cannot
+be done for a certain amount of time), Kanban will prevent you from
+picking a new work item… since the item that is not moved to
+Production/100% complete cannot move out of the WIP column. (that
+being said, there are probably variations that can be made to
+Kanban so that it work with teams like these. It just wouldn’t be
+100% by the books)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline25" class="outline-3">
+<h3 id="orgheadline25"><span class="section-number-3">5.6</span> Where can you learn more about it?</h3>
+<div class="outline-text-3" id="text-5-6">
+<p>
+Though Kanban is a newer methodology, this methodology is gaining
+popularity at companies large and small. In my experience, many
+transition to Kanban after using Scrum, and land somewhere in the
+middle regarding what works best for their team. Although, you
+definitely do not need to be using Scrum currently to look into
+using Kanban for your project team!
+</p>
+
+<p>
+<a href="https://www.crisp.se/gratis-material-och-guider/kanban">https://www.crisp.se/gratis-material-och-guider/kanban</a> - Good
+starting point to learn more about Kanban. This page also has links
+to other useful Kanban resources.
+</p>
+
+<p>
+Kanban &amp; Scrum, making the most of both (book by Henrik &amp; Mattias)
+– Specifically calls out similarities and differences between the
+two, and ways to transition from Scrum to Kanban.
+</p>
+
+
+<p>
+<a href="http://www.ted.com/talks/bruce_feiler_agile_programming_for_your_family?language=en#t-24806">http://www.ted.com/talks/bruce_feiler_agile_programming_for_your_family?language=en#t-24806</a>
+– Interesting perspective on Agile and how it can help the stresses
+of the modern day family.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Tamara Temple</p>
+<p class="date">Created: 2016-06-21 Tue 21:24</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
